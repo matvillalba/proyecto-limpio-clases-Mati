@@ -10,6 +10,8 @@ public class ServicioFiguritasImpl implements ServicioFiguritas{
 
     private RepositorioFiguritas repositorioFiguritas;
 
+    public ServicioFiguritasImpl(){}
+
     public ServicioFiguritasImpl(RepositorioFiguritas repositorioFiguritas){
         this.repositorioFiguritas = repositorioFiguritas;
     }
